@@ -1,37 +1,43 @@
 html,
 body {
-  font-family: 'Exo 2',
-    sans-serif;
-
+  font-family: "Exo 2", sans-serif;
+  list-style-type: none;
 }
 
 #header {
   background-color: rgb(75, 75, 75);
+  margin: 0 -15px;
 }
-
-
-
 section:first-of-type {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.349),
-    transparent),
-    url("images/devboard.png"), linear-gradient(rgb(75, 75, 75), rgb(75, 75, 75));
+  height: 40vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.349), transparent),
+    url("images/devboard.png"),
+    linear-gradient(rgb(75, 75, 75), rgb(44, 44, 44));
   background-repeat: no-repeat;
   background-size: auto 160%;
   background-position: center;
-  padding: 15vh;
 }
-
+#little-picture {
+  height: 80px;
+  width: auto;
+}
 #big-picture {
-  height: 250px;
+  max-height: 130px;
   width: auto;
 }
 
 .sudo-top {
-  position: absolute;
-  top: -60px;
+  position: relative;
+  top: -95px;
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 01px black;
+}
+.drop-shadow {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.white-card {
+  box-shadow: -10px 5px 8px rgba(44, 44, 44, 0.6);
+  padding: 1.25rem;
 }
