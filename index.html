@@ -11,24 +11,25 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
-    <header id="header" class="row sticky-top">
+    <header id="header" class="row sticky-top shadow py-2">
       <div class="col-5 offset-1 d-none d-sm-block">
         <img src="//placehold.it/50x50" alt="">
       </div>
       <div class="col col-sm-6 d-flex justify-sm-content-end justify-content-around">
         <nav class="nav">
-          <a href="" class="nav-link">About Me</a>
-          <a href="" class="nav-link">Work</a>
-          <a href="" class="nav-link">Contact</a>
+          <a href="#about-me" class="nav-link text-light">About Me</a>
+          <a href="#work" class="nav-link text-light">Work</a>
+          <a href="#contact" class="nav-link text-light">Contact</a>
         </nav>
       </div>
     </header>
     <section class="row">
-      <div class="col col-sm-4 offset-sm-4 d-flex align-items-center justify-content-around">
+      <div class="col col-sm-4 offset-sm-4 d-flex align-items-center justify-content-around pt-3">
         <div>
           <h1>Luke King</h1>
           <p>developing the future</p>
@@ -38,7 +39,7 @@
       </div>
 
     </section>
-    <section class="row">
+    <section id="about-me" class="row">
       <div class="col col-sm-4 offset-sm-4 text-center">
         <h1>A little about me</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, ea dolorem, inventore repellendus vitae
@@ -52,7 +53,7 @@
           ratione!</p>
       </div>
     </section>
-    <section>
+    <section id="work">
       <div class="row">
         <div class="col text-center"></div>
       </div>
@@ -101,7 +102,7 @@
         </div>
       </div>
     </section>
-    <footer class="row">
+    <footer id="contact" class="row">
       <div class="col col-sm-6 offset-sm-3 text-center">
         <div class="row">
           <div class="col d-flex justify-content-between">
