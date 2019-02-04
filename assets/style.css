@@ -1,18 +1,40 @@
+:root {
+  --bg-color: rgb(75, 75, 75);
+  --text-light-color: #edf5f9;
+}
+
 html,
 body {
   font-family: "Exo 2", sans-serif;
   list-style-type: none;
 }
 
+li {
+  flex-basis: 45%;
+}
+
+a {
+  color: var(--text-light-color);
+}
+
+footer {
+  background: var(--bg-color);
+}
+
 #header {
-  background-color: rgb(75, 75, 75);
+  background-color: var(--bg-color);
   margin: 0 -15px;
 }
 section:first-of-type {
   height: 40vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.349), transparent),
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.349),
+      rgba(255, 255, 255, 0.109)
+    ),
+    linear-gradient(to left, var(--bg-color), transparent 10%),
+    linear-gradient(to right, var(--bg-color), transparent 10%),
     url("images/devboard.png"),
-    linear-gradient(rgb(75, 75, 75), rgb(44, 44, 44));
+    linear-gradient(var(--bg-color), rgb(44, 44, 44));
   background-repeat: no-repeat;
   background-size: auto 160%;
   background-position: center;
@@ -26,6 +48,54 @@ section:first-of-type {
   width: auto;
 }
 
+#proj-1 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/tictactoe.PNG");
+}
+#proj-2 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/pamadoro.PNG");
+}
+#proj-3 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/calculator.png");
+}
+#proj-4 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/fizz_buzz.PNG");
+}
+#proj-5 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/simon.PNG");
+}
+#proj-6 {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.6),
+      rgba(128, 128, 128, 0.6)
+    ),
+    url("images/amazing.png");
+}
+.project {
+  height: 30vh;
+  width: auto;
+  background-size: cover;
+  background-position: center;
+}
 .sudo-top {
   position: relative;
   top: -95px;
