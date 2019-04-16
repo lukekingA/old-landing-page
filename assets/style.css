@@ -25,12 +25,11 @@ footer {
   background-color: var(--bg-color);
   margin: 0 -15px;
 }
+
 section:first-of-type {
   height: 40vh;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.349),
-      rgba(255, 255, 255, 0.109)
-    ),
+  background-image: linear-gradient(rgba(255, 255, 255, 0.349),
+    rgba(255, 255, 255, 0.109)),
     linear-gradient(to left, var(--bg-color), transparent 10%),
     linear-gradient(to right, var(--bg-color), transparent 10%),
     url("images/devboard.png"),
@@ -39,63 +38,60 @@ section:first-of-type {
   background-size: auto 160%;
   background-position: center;
 }
+
 #little-picture {
   height: 80px;
   width: auto;
 }
+
 #big-picture {
   max-height: 130px;
   width: auto;
 }
 
 #proj-1 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
     url("images/tictactoe.PNG");
 }
+
 #proj-2 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
-    url("images/pamadoro.PNG");
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
+    url("images/Inspire.png");
 }
+
 #proj-3 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
     url("images/calculator.png");
 }
+
 #proj-4 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
     url("images/fizz_buzz.PNG");
 }
+
 #proj-5 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
     url("images/simon.PNG");
 }
+
 #proj-6 {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.6),
-      rgba(128, 128, 128, 0.6)
-    ),
+  background-image: linear-gradient(rgba(128, 128, 128, 0.6),
+    rgba(128, 128, 128, 0.6)),
     url("images/amazing.png");
 }
+
 .project {
   height: 30vh;
   width: auto;
   background-size: cover;
   background-position: center;
 }
+
 .sudo-top {
   position: relative;
   top: -95px;
@@ -104,9 +100,11 @@ section:first-of-type {
 .text-shadow {
   text-shadow: 1px 1px 01px black;
 }
+
 .drop-shadow {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
+
 .white-card {
   box-shadow: -10px 5px 8px rgba(44, 44, 44, 0.6);
   padding: 1.25rem;

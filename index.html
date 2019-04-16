@@ -1,238 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Luke King</title>
-    <link
-      rel="shortcut icon"
-      href="assets/images/fav-icon.png"
-      type="image/x-icon"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Exo+2"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Luke King</title>
+  <link rel="shortcut icon" href="assets/images/fav-icon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet" />
 
-  <body>
-    <div class="container-fluid">
-      <header id="header" class="row sticky-top shadow py-2">
-        <div class="col-2 offset-1 d-none d-sm-block pt-1">
-          <img
-            id="little-picture"
-            class="rounded-circle drop-shadow"
-            src="assets/images/me.png"
-            alt="Luke King image"
-          />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header id="header" class="row sticky-top shadow py-2">
+      <div class="col-2 offset-1 d-none d-sm-block pt-1">
+        <img id="little-picture" class="rounded-circle drop-shadow" src="assets/images/headShot.jpg"
+          alt="Luke King image" />
+      </div>
+      <div class="col col-sm-8 d-flex justify-content-sm-end justify-content-around">
+        <nav class="nav">
+          <a href="#about-me" class="nav-link text-light">About Me</a>
+          <a href="#work" class="nav-link text-light">Projects</a>
+          <a href="#contact" class="nav-link text-light">Contact</a>
+          <a href="//lukekinga.github.io/Luke-King-Resume/" class="nav-link text-light">Resume</a>
+        </nav>
+      </div>
+    </header>
+    <section class="row white-card">
+      <div class="col-12 col-sm-4 offset-sm-2 d-flex align-items-center justify-content-center pt-3">
+        <div class="mr-2">
+          <h1 class="font-weight-bold text-light text-shadow">Luke King</h1>
+          <p class="text-light text-shadow">developing the future</p>
         </div>
-        <div
-          class="col col-sm-8 d-flex justify-content-sm-end justify-content-around"
-        >
-          <nav class="nav">
-            <a href="#about-me" class="nav-link text-light">About Me</a>
-            <a href="#work" class="nav-link text-light">Projects</a>
-            <a href="#contact" class="nav-link text-light">Contact</a>
-            <a
-              href="//lukekinga.github.io/Luke-King-Resume/"
-              class="nav-link text-light"
-              >Resume</a
-            >
-          </nav>
+        <div class="d-sm-none">
+          <img id="big-picture" class="rounded-circle drop-shadow" src="assets/images/me.png" alt="Luke King Image" />
         </div>
-      </header>
-      <section class="row white-card">
-        <div
-          class="col-12 col-sm-4 offset-sm-2 d-flex align-items-center justify-content-center pt-3"
-        >
-          <div class="mr-2">
-            <h1 class="font-weight-bold text-light text-shadow">Luke King</h1>
-            <p class="text-light text-shadow">developing the future</p>
-          </div>
-          <div class="d-sm-none">
-            <img
-              id="big-picture"
-              class="rounded-circle drop-shadow"
-              src="assets/images/me.png"
-              alt="Luke King Image"
-            />
-          </div>
-        </div>
-      </section>
-      <section class="row mt-3">
-        <div id="about-me" class="sudo-top"></div>
-        <div class="col col-sm-8 offset-sm-2">
-          <h2 class="ml-5">A little about me</h2>
-          <div class="row">
-            <div class="col-10 col-sm-8 offset-1 offset-sm-2 ">
-              <div class="white-card">
-                <p>
-                  Im a junior software engineer who enjoys building new things
-                  and learning how things work.
-                </p>
-                <p>
-                  Problem solving, project management, and goal oriented time
-                  management have been skills that I have developed from my
-                  previous business ventures. These will continue to be valuable
-                  as I move forward into development.
-                </p>
-              </div>
-              <h3 class="mt-2">Tech I have experience with</h3>
-              <ul
-                class="list-unstyled d-flex flex-wrap justify-content-around white-card mt-3"
-              >
-                <li>JavaScript</li>
-                <li>HTML & CSS</li>
-                <li>Bootstrap 4</li>
-                <li>jQuery</li>
-                <li>Vue JS</li>
-                <li>Node JS</li>
-                <li>Mongo DB</li>
-                <li>Python</li>
-                <li>D3</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div id="work" class="sudo-top"></div>
+      </div>
+    </section>
+    <section class="row mt-3">
+      <div id="about-me" class="sudo-top"></div>
+      <div class="col col-sm-8 offset-sm-2">
+        <h2 class="ml-5">A little about me</h2>
         <div class="row">
-          <div class="col col-sm-8 offset-sm-2">
-            <h3>Projects</h3>
+          <div class="col-10 col-sm-8 offset-1 offset-sm-2 ">
+            <div class="white-card">
+              <p>
+                Im a junior software engineer who enjoys building new things
+                and learning how things work.
+              </p>
+              <p>
+                Problem solving, project management, and goal oriented time
+                management have been skills that I have developed from my
+                previous business ventures. These will continue to be valuable
+                as I move forward into development.
+              </p>
+            </div>
+            <h3 class="mt-2">Tech I have experience with</h3>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-around white-card mt-3">
+              <li>JavaScript</li>
+              <li>HTML & CSS</li>
+              <li>Bootstrap 4</li>
+              <li>jQuery</li>
+              <li>Vue JS</li>
+              <li>Node JS</li>
+              <li>Mongo DB</li>
+              <li>Python</li>
+              <li>D3</li>
+              <li>C#</li>
+              <li>.NET</li>
+              <li>MySQL</li>
+            </ul>
           </div>
         </div>
-       
-        <div class="row d-flex justify-content-center">
-         
-          <div id="proj-1" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
-                <h4>
-                  <a class="border-bottom border-light pb-1 d-inline-block" href="https://codepen.io/lkingfrm/pen/bMpzyx">Tic Tac Toe</a>
-                </h4>
-                <p><small>A fun game</small></p>
-              </div>
-            </div>
-          </div>
-          <div id="proj-2" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
-                <h4>
-                  <a class="border-bottom border-light pb-1 d-inline-block" href=https://codepen.io/lkingfrm/pen/YaRNGX">Pamadoro Clock</a>
-                </h4>
-                <p><small>Timer for your work periods</small></p>
-              </div>
-            </div>
-          </div>
-          <div id="proj-3" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div
-                class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow"
-              >
-                <h4>
-                  <a
-                    class="border-bottom border-light pb-1 d-inline-block"
-                    href="https://codepen.io/lkingfrm/pen/jzVaRa"
-                    >Calculator</a
-                  >
-                </h4>
-                <p>A JS calculator</p>
-              </div>
-            </div>
-          </div>
-          <div id="proj-4" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div
-                class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow"
-              >
-                <h4>
-                  <a
-                    class="border-bottom border-light pb-1 d-inline-block"
-                    href="https://codepen.io/lkingfrm/pen/WXMvdB"
-                    >FIZZ BUZZ</a
-                  >
-                </h4>
-                <p><small>Visual implementation of a clasic interview question</small></p>
-              </div>
-            </div>
-          </div>
-          <div id="proj-5" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div
-                class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow"
-              >
-                <h4 class="">
-                  <a
-                    class="border-bottom border-light pb-1 d-inline-block"
-                    href="https://codepen.io/lkingfrm/pen/wXMwWw"
-                    >Simon</a
-                  >
-                </h4>
-                <p><small>A fun game from history.</small></p>
-              </div>
-            </div>
-          </div>
-          <div id="proj-6" class="col-11 col-sm-3 project mx-3 mt-3">
-            <div class="row h-100 white-card">
-              <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
-                <h4>
-                  <a class="border-bottom border-light pb-1 d-inline-block" href="#">Coming Soon</a>
-                </h4>
-                <p><small>New projects coming every day</smal></p>
-                <p><small>Check back often</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer id="contact" class="row mt-3 py-4">
+      </div>
+    </section>
+    <section>
+      <div id="work" class="sudo-top"></div>
+      <div class="row">
         <div class="col col-sm-8 offset-sm-2">
-          <div class="row">
-            <div class="col-6 text-light">
-              <h4>Get in touch</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-6 d-flex flex-column align-content-start">
-              <div>
-                <a href="tel:12085980293"><h6><i class="fas fa-mobile-alt"></i> (208)598-0293</h6></a>
-              </div>
-              <div>
-                <a href="email:lkingfrm@gmail.com">lkingfrm@gmail.com</a>
-              </div>
-            </div>
-            <div class="col-6 d-flex justify-content-around">
-              <div>
-                <a href="//www.linkedin.com/in/lukekinga"><h4><i class="fab fa-linkedin"></i></h4></a>
-              </div>
-              <div>
-                <a href="//www.facebook.com/luke.king.31542"><h4><i class="fab fa-facebook-square"></i></h4></a>
-              </div>
-              <div>
-                <a href="https://github.com/lukekingA">
-                  <h4><i class="fab fa-github-square"></i></h4>
-                </a>
-              </div>
+          <h3>Projects</h3>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+
+        <div id="proj-1" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4>
+                <a class="border-bottom border-light pb-1 d-inline-block"
+                  href="https://codepen.io/lkingfrm/pen/bMpzyx">Tic Tac Toe</a>
+              </h4>
+              <p><small>A fun game</small></p>
             </div>
           </div>
         </div>
-      </footer>
-    </div>
-  </body>
+        <div id="proj-2" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4>
+                <a class="border-bottom border-light pb-1 d-inline-block"
+                  href=https://lukekinga.github.io/inspire/">Inspire </a> </h4> <p><small>Cool backdrop for your work
+                    with info about the day.</small></p>
+            </div>
+          </div>
+        </div>
+        <div id="proj-3" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4>
+                <a class="border-bottom border-light pb-1 d-inline-block"
+                  href="https://codepen.io/lkingfrm/pen/jzVaRa">Calculator</a>
+              </h4>
+              <p>A JS calculator</p>
+            </div>
+          </div>
+        </div>
+        <div id="proj-4" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4>
+                <a class="border-bottom border-light pb-1 d-inline-block"
+                  href="https://codepen.io/lkingfrm/pen/WXMvdB">FIZZ BUZZ</a>
+              </h4>
+              <p><small>Visual implementation of a clasic interview question</small></p>
+            </div>
+          </div>
+        </div>
+        <div id="proj-5" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4 class="">
+                <a class="border-bottom border-light pb-1 d-inline-block"
+                  href="https://codepen.io/lkingfrm/pen/wXMwWw">Simon</a>
+              </h4>
+              <p><small>A fun game from history.</small></p>
+            </div>
+          </div>
+        </div>
+        <div id="proj-6" class="col-11 col-sm-3 project mx-3 mt-3">
+          <div class="row h-100 white-card">
+            <div class="col d-flex flex-column justify-content-center align-content-center text-light text-shadow">
+              <h4>
+                <a class="border-bottom border-light pb-1 d-inline-block" href="#">Coming Soon</a>
+              </h4>
+              <p><small>New projects coming every day</smal>
+              </p>
+              <p><small>Check back often</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="row mt-3 py-4">
+      <div class="col col-sm-8 offset-sm-2">
+        <div class="row">
+          <div class="col-6 text-light">
+            <h4>Get in touch</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 d-flex flex-column align-content-start">
+            <div>
+              <a href="tel:12085980293">
+                <h6><i class="fas fa-mobile-alt"></i> (208)598-0293</h6>
+              </a>
+            </div>
+            <div>
+              <a href="email:lkingfrm@gmail.com">lkingfrm@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-around">
+            <div>
+              <a href="//www.linkedin.com/in/lukekinga">
+                <h4><i class="fab fa-linkedin"></i></h4>
+              </a>
+            </div>
+            <div>
+              <a href="//www.facebook.com/luke.king.31542">
+                <h4><i class="fab fa-facebook-square"></i></h4>
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/lukekingA">
+                <h4><i class="fab fa-github-square"></i></h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
